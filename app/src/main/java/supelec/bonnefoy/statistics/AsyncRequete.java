@@ -186,7 +186,7 @@ public class AsyncRequete extends AsyncTask<String, Integer, JSONObject> {
                 int a = Integer.parseInt(myTextViewLabels.getText().toString());
                 a += 1;
                 String b = Integer.toString(a);
-                myTextView2.setText(b); }
+                myTextViewLabels.setText(b); }
 
 
 

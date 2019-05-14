@@ -157,7 +157,7 @@
             android:id="@+id/textView13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="labels"
+            android:text="labels_hierarchy"
             android:textAlignment="center"
             android:textSize="18sp"
             android:textStyle="bold"/>
@@ -167,6 +167,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textViewLabel2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="labels"
             android:textAlignment="center"
             android:textSize="18sp"
             android:textStyle="bold" />

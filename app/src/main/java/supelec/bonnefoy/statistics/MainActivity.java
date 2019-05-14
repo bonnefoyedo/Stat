@@ -36,7 +36,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
-
+        //produits les plus consultés
+/*
         liste.add("3017620429484");
         liste.add("5449000000996");
         liste.add("3274080005003");
@@ -190,6 +191,74 @@ public class MainActivity extends AppCompatActivity {
         liste.add("3227061000023");
         liste.add("3181232220286");
         liste.add("3181232180559");
+       */
+
+// riz
+        liste.add("5410673730954");
+        liste.add("5410673203007");
+        liste.add("5410673731036");
+        liste.add("3596710387403");
+        liste.add("5410673000910");
+        liste.add("3560070837052");
+        liste.add("3017491615504");
+        liste.add("5410673103000");
+        liste.add("3564700024164");
+        liste.add("3038354586403");
+        liste.add("5410673004000");
+        liste.add("3038359002649");
+        liste.add("3229820788876");
+        liste.add("3017490000202");
+        liste.add("3560070425235");
+        liste.add("3038354534008");
+        liste.add("3263850614613");
+        liste.add("3263850622823");
+        liste.add("3564700010204");
+        liste.add("3487400002136");
+        liste.add("3017490000813");
+        liste.add("3038354593302");
+        liste.add("3560070393619");
+        liste.add("20364625");
+        liste.add("3564700579886");
+        liste.add("3564707084802");
+        liste.add("20035174");
+        liste.add("3038354543000");
+        liste.add("3560070822294");
+        liste.add("5410673000859");
+        liste.add("3017490001483");
+        liste.add("3560070393589");
+        liste.add("3038354524108");
+        liste.add("3038354526003");
+        liste.add("3038354592305");
+        liste.add("5410673731128");
+        liste.add("3038354596402");
+        liste.add("3250391418107");
+        liste.add("3564700577097");
+        liste.add("3564700577097");
+        liste.add("5410673001559");
+        liste.add("5410673709028");
+        liste.add("26019628");
+        liste.add("3017491515200");
+        liste.add("3038359001741");
+        liste.add("3478820023009");
+        liste.add("3560070510832");
+        liste.add("3564709001616");
+        liste.add("8001420002782");
+        liste.add("3038354524009");
+        liste.add("3038354593036");
+        liste.add("3038359001734");
+        liste.add("3222475714429");
+        liste.add("3250390321972");
+        liste.add("3256221212457");
+        liste.add("3263850622915");
+        liste.add("3346438000104");
+        liste.add("3487400001955");
+        liste.add("3560070822287");
+        liste.add("3596710396863");
+        liste.add("20301897");
+        liste.add("20420031");
+        liste.add("3017490000103");
+        liste.add("3038354526102");
+
 
         TextView texti12 = findViewById(R.id.textView12);
         texti12.setText(Integer.toString(liste.size()));
@@ -203,8 +272,8 @@ public class MainActivity extends AppCompatActivity {
         texti2.setText(b);
 
         TextView texti56 = findViewById(R.id.textViewLabel);
-        String b = Integer.toString(labels);
-        texti2.setText(b);
+        String bb = Integer.toString(labels);
+        texti56.setText(bb);
 
         TextView texti3 = findViewById(R.id.textView3);
         String c = Integer.toString(images);
